@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="convert-wrap">
+        <p>Convert</p>
+        <input type="text" placeholder="enter a number" />
+        <select
+          class="time-interval1"
+          name="time-interval1"
+          id="time-interval1"
+        >
+          <option value="milliseconds">Milliseconds</option>
+          <option value="seconds">Seconds</option>
+          <option value="minutes">Minutes</option>
+          <option value="hours">Hours</option>
+          <option value="days">Days</option>
+          <option value="weeks">Weeks</option>
+          <option value="months">Months</option>
+          <option value="years">Years</option>
+        </select>
+      </div>
+      <div class="preferred-wrap">
+        <p>To</p>
+        <select
+          class="time-interval2"
+          name="time-interval2"
+          id="time-interval2"
+        >
+          <option value="milliseconds">Milliseconds</option>
+          <option value="seconds">Seconds</option>
+          <option value="minutes">Minutes</option>
+          <option value="hours">Hours</option>
+          <option value="days">Days</option>
+          <option value="weeks">Weeks</option>
+          <option value="months">Months</option>
+          <option value="years">Years</option>
+        </select>
+      </div>
+      <button class="calculate">Calculate</button>
+      <div class="result-wrap">
+        <p class="result"></p>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
